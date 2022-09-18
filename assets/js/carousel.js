@@ -50,7 +50,6 @@ class Carousel {
         'class',
         i === 0 ? 'indicator active' : 'indicator'
       );
-      //  indicator.setAttribute('data-slide-to', i);
       indicator.dataset.slideTo = i;
       indicators.append(indicator);
     }
